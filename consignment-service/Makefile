@@ -1,5 +1,6 @@
 build:
-	protoc -I. --micro_out=. --go_out=. proto/consignment/consignment.proto
+	protoc -I. --go_out=plugins=micro:$(GOPATH)/src/github.com/jfiuza/shippy/consignment-service \
+		proto/consignment/consignment.proto
 	docker build -t consignment-service .
 
 run:
