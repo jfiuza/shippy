@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/EwanValentine/shippy/consignment-service/proto/consignment"
-	vesselProto "github.com/EwanValentine/shippy/vessel-service/proto/vessel"
+	pb "github.com/jfiuza/shippy/consignment-service/proto/consignment"
+	vesselProto "github.com/jfiuza/shippy/vessel-service/proto/vessel"
 	micro "github.com/micro/go-micro"
 	"golang.org/x/net/context"
 )
